@@ -2,6 +2,7 @@ body{
     margin: 0;
 }
 
+/*Modifico impostazioni Header di Logo e Background*/
 header{
 width: 1500px;
 height: 100px;
@@ -15,4 +16,31 @@ margin-top: 0;
 figure{
 width: 200px;
 margin-left: 0;
+}
+
+/*Modifico impostazioni di Titolo, autore e data*/
+
+#title1{
+    margin-bottom: 0;
+}
+
+#author{
+    margin: 0;
+    font-size: 14px;
+}
+
+#date{
+    margin: 2px;
+    font-size: 11px;
+}
+
+/*Modifico Immagini e Autore delle foto*/
+
+#tim-image{
+    margin-top: 20px;
+}
+
+.photo-description{
+    margin: 0;
+    font-size: 11px;
 }
