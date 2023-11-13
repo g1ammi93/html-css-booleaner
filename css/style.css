@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+header{
+width: 1500px;
+height: 100px;
+background-image: url(../img/pattern.png);
+background-color: rgb(78, 160, 255);
+background-size: contain;
+background-position: center center;
+margin-top: 0;
+}
+
+figure{
+width: 200px;
+margin-left: 0;
+}
