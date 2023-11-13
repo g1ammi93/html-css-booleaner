@@ -37,6 +37,7 @@ top: 20px;
 
 /*Modifico impostazioni di Titolo, autore e data*/
 #title1{
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -68,6 +69,7 @@ top: 20px;
 /*Elenco puntato in linea con il testo*/
 ul{
     padding: 0;
+    padding-left: 15px;
 }
 
 li{
@@ -78,14 +80,20 @@ li{
 
 table {
     border-collapse: collapse;
-    height: 400px;
+    height: 200px;
 }
 
 th{
     height: 10px;
     color: white;
-    width: 180px;
+    width: 1500px;
     white-space: nowrap;
+    text-align: left;
+}
+
+td{
+    width: 1500px;
+    text-align: left;
 }
 
 thead{
@@ -94,6 +102,11 @@ thead{
 
 .row-1, .row-3{
     background-color: rgb(177, 229, 242)
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 3550px;
 }
 
 /*Footer*/
@@ -112,6 +125,8 @@ h5{
     background-repeat: no-repeat;
     margin-bottom: 0;
     text-align: center;
+    padding-right: 50px;
+    padding-top: 5px;
 }
 
 .final-link-2{
@@ -123,4 +138,6 @@ h5{
     background-repeat: no-repeat;
     margin-top: 10px;
     text-align: center;
+    padding-right: 50px;
+    padding-top: 5px;
 }
