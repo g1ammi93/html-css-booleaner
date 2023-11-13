@@ -64,3 +64,28 @@ thead{
 .row-1, .row-3{
     background-color: rgb(177, 229, 242)
 }
+
+h5{
+    font-size: 18px;
+    color: gray;
+}
+
+.final-link-1{
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.final-link-2{
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
