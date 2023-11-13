@@ -78,6 +78,14 @@ li{
 
 table {
     border-collapse: collapse;
+    height: 400px;
+}
+
+th{
+    height: 10px;
+    color: white;
+    width: 180px;
+    white-space: nowrap;
 }
 
 thead{
