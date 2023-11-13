@@ -2,20 +2,29 @@ body{
     margin: 0;
 }
 
+.container{
+    max-width: 1050px;
+    width: 100%;
+    margin-left:25%;
+    margin-right: 25%;
+}
+
 /*Modifico impostazioni Header di Logo e Background*/
 header{
-width: 1500px;
+width: 1050px;
 height: 100px;
 background-image: url(../img/pattern.png);
 background-color: rgb(78, 160, 255);
 background-size: contain;
-background-position: center center;
-margin-top: 0;
+background-position: center top;
+margin: 0;
 }
 
 figure{
 width: 200px;
 margin-left: 0;
+position: relative;
+top: 20px;
 }
 
 /*Modifico impostazioni di Titolo, autore e data*/
@@ -78,6 +87,7 @@ h5{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .final-link-2{
@@ -87,5 +97,6 @@ h5{
     background-image: url(../img/graph.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 0;
+    margin-top: 10px;
+    text-align: center;
 }
